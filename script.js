@@ -6,7 +6,7 @@ let img3  = document.getElementById('photo-grid3');
 function createImageNode(n) {
     var img = document.createElement('img');
     img.classList.add("images");
-    img.src = `./Images/img/i (${n}).jpg`
+    img.src = `./Images/i/i (${n}).jpg`
     return img;
 }
     let i =1
