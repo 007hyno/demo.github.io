@@ -8,9 +8,10 @@ let img2  = document.getElementById('photo-grid2');
 let img3  = document.getElementById('photo-grid3');
 function createImageNode(n) {
     var img = document.createElement('img');
-    img.src = `./Images/i/i (${n}).jpg`
-    img.width = "500";
-    img.style.margin = "10px";
+    img.classList.add("images");
+    img.src = `./Images/img/i (${n}).jpg`
+    // img.width = "450";
+    // img.style.margin = "10px";
     return img;
 }
 
